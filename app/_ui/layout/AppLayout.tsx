@@ -1,8 +1,8 @@
 import {ReactNode} from "react";
-import styles from './layout.module.scss'
+import styles from '@/app/_ui/_styles/layout.module.scss'
 export const AppLayout = ({children} : {children : ReactNode}) => {
 	return (
-		<main className={styles.mainContainer}>
+		<main className={styles.container}>
             {children}
         </main>
 	)
